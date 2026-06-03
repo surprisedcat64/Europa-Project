@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Europan Background" identifier="europa-background1" description="tufftufftuffsahur" category="Decorative" scale="0.5" maxstacksize="4" pickdistance="200" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+    <Body width="80" height="140" density="10" />
+    <Sprite texture="%ModDir%/Sprites/europa_background.png" depth="0.845" sourcerect="00,00,2048,1152" origin="0.5,0.5" />
+  </Item>
+</Items>
