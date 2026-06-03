@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- sets the names of items and roles -->
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <override>
+    <jobname.thinker>The Thinker</jobname.thinker>
+    <jobdescription.thinker>bro think he the thinker.</jobdescription.thinker>
+  </override>
+</infotexts>

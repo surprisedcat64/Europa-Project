@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Jobs>
+    <!-- initalizes a role -->
+    <Job identifier="thinker"
+        minnumber="0" maxnumber="1" minkarma="0" initialcount="1"
+        CampaignSetupUIOrder="0"
+        uicolor="0.65,0.73,0.84"
+        vitalitymodifier="0"
+        pricemultiplier="1.3"
+        idlebehavior="StayInHull"
+        hiddenjob="true">
+    <!-- sets skills of a role -->
+    <Skills>
+    <!-- x,y sets the range of a skill. currently its always 50-->
+      <Skill identifier="helm" level="50,50" pvplevel="50"/>
+      <Skill identifier="weapons" level="50,50" pvplevel="50" />
+      <Skill identifier="mechanical" level="50,50" pvplevel="50"/>
+      <Skill identifier="electrical" level="50,50" pvplevel="50"/>
+      <Skill identifier="medical" level="50,50" pvplevel="50"/>
+    </Skills>
+    <!-- starting equipment -->
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false"/>
+      <Item identifier="wrench" GameMode="PvE"/>
+      <Item identifier="screwdriver" GameMode="PvE"/>
+      <Item identifier="headset" equip="true" showpreview="false"/>
+    </ItemSet>
+    <!-- ends a jobs definition -->
+    </Job>
+
+</Jobs>
