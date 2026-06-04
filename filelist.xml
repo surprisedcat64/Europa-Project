@@ -7,4 +7,6 @@
     <Text file="%ModDir%/English.xml" />
     <!-- backgrounds -->
     <Item file="%ModDir%/Sprites/backgrounds.xml" />
+    <!-- weapons -->
+    <Item file="%ModDir%/Content/Weapons/Weapons.xml" />
 </contentpackage>
