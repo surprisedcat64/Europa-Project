@@ -47,7 +47,7 @@
     </Deconstruct>
     <InventoryIcon texture="%ModDir%/Sprites/Spritesheet.png" sourcerect="0,200,50,250" />
     <Sprite texture="%ModDir%/Sprites/Spritesheet.png" depth="0.54" sourcerect="0,200,50,250" origin="0.5,0.5" />
-    <Body width="14" height="40" density="25" />
+    <Body width="50" height="50" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="556nato" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="556nato" />
       <StatusEffect type="OnUse" target="This" condition="-3.34" disabledeltatime="true">
@@ -58,7 +58,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  <Item name="Coalition 5.56 Assault Rifle" identifier="coalitionassaultrifle" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallautoweapon,smallitem,weapon,gun,gunsmith,provocativetohumanai,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Coalition 5.56 Assault Rifle" identifier="coalitionassaultrifle" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallautoweapon,smallitem,weapon,gun,gunsmith,provocativetohumanai,mountableweapon" Scale="0.4" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" amount="1" spawnprobability="1" notcampaign="true" notpvp="true" />
     <PreferredContainer secondary="outpostsecarmcab" amount="1" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab,piratesecarmcab" amount="1" spawnprobability="0.25" />
@@ -102,7 +102,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" containedstateindicatorslot="0" containedstateindicatorstyle="bullet" containedspritedepth="0.56">
-      <Containable items="556nato" hide="false" itempos="4,-10" rotation="-30" />
+      <Containable items="556nato" hide="false" itempos="-15,-8" rotation="-30" />
       <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="256,448,64,64" origin="0.5,0.5" />
       <SlotIcon slotindex="1" texture="Content/UI/StatusMonitorUI.png" sourcerect="320,448,64,64" origin="0.5,0.5" />
       <SubContainer capacity="1" maxstacksize="1">

@@ -10,5 +10,5 @@
     <!-- weapons -->
     <Item file="%ModDir%/Content/Weapons/Weapons.xml" />
     <!-- Faction gear : Coalition -->
-    <Item file="%ModDir%/Content/Faction Gear/Coalition/armor.xml" />
+    <Item file="%ModDir%/Content/Faction-Gear/Coalition/armor.xml" />
 </contentpackage>

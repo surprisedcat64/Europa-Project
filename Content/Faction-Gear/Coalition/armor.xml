@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-    <?xml version="1.0" encoding="utf-8"?>
-<Items>
   <Item name="" identifier="scp_assaultpack" scale="0.6" category="Equipment" subcategory="Coalition" tags="mediumitem,toolbelt,toolbox,mobilecontainer,largemobilecontainer" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <PreferredContainer primary="armcab" />
     <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.08" />
@@ -14,8 +12,8 @@
       <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="0.95" minavailable="0" maxavailable="2" />
     </Price>
-    <InventoryIcon name="assaultpackinv" texture="%ModDir%/Content/Faction Gear/Coalition/assaultpack.png" sourcerect="122,5,61,61" origin="0.5,0.5" />
-    <Sprite name="assaultpackground" texture="%ModDir%/Content/Faction Gear/Coalition/assaultpack.png" depth="0.6" sourcerect="117,68,80,49" origin="0.5,0.5" />
+    <InventoryIcon name="assaultpackinv" texture="%ModDir%/Content/Faction-Gear/Coalition/assaultpack.png" sourcerect="122,5,61,61" origin="0.5,0.5" />
+    <Sprite name="assaultpackground" texture="%ModDir%/Content/Faction-Gear/Coalition/assaultpack.png" depth="0.6" sourcerect="117,68,80,49" origin="0.5,0.5" />
     <Body width="100" height="50" density="15" />
     <Deconstruct time="10">
       <Item identifier="plastic" />
@@ -33,9 +31,8 @@
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
-      <sprite name="Assault Backpack Wearable" texture="%ModDir%/Content/Faction Gear/Coalition/assaultpack.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" canbehiddenbyotherwearables="false" sourcerect="5,7,94,89" origin="0.7110833,0.6007368" scale="0.6" />
+      <sprite name="Assault Backpack Wearable" texture="%ModDir%/Content/Faction-Gear/Coalition/assaultpack.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" canbehiddenbyotherwearables="false" sourcerect="5,7,94,89" origin="0.7110833,0.6007368" scale="0.6" />
       <StatValue stattype="SwimmingSpeed" value="-0.05" />
     </Wearable>
   </Item>
-</Items>
-</Items>
+</Items>5
