@@ -10,5 +10,11 @@
     <jobdescription.c-captain>Lead the station to victory!</jobdescription.c-captain>
     <jobname.w-worker>Unionized Worker</jobname.w-worker>
     <jobdescription.w-worker>FOR LABOR AND FREEDOM!</jobdescription.w-worker>
+    <jobname.w-militant>Unionized Militant</jobname.w-militant>
+    <jobdescription.w-militant>FOR LABOR AND FREEDOM!</jobdescription.w-militant>
+    <jobname.r-captain>Renegade Captain</jobname.r-captain>
+    <jobdescription.r-captain>for freedom type shit</jobdescription.r-captain>
+    <jobname.r-warrior>Renegade Soldier</jobname.r-warrior>
+    <jobdescription.r-warrior>for freedom type shit</jobdescription.r-warrior>
   </override>
 </infotexts>
