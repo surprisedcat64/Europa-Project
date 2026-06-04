@@ -1,14 +1,10 @@
-<contentpackage name="Surface Tension" corepackage="false" modversion="0.1" gameversion="1.11.5.0">
-    <!-- enables our jobs -->
-    <Jobs file="%ModDir%/Content/Jobs/jobs.xml" />
-    <!-- disables vanilla jobs -->
-    <Jobs file="%ModDir%/Content/joboverride.xml" />
-    <!--do i really need to explain this one-->
-    <Text file="%ModDir%/English.xml" />
-    <!-- backgrounds -->
-    <Item file="%ModDir%/Sprites/backgrounds.xml" />
-    <!-- weapons -->
-    <Item file="%ModDir%/Content/Weapons/Weapons.xml" />
-    <!-- Faction gear : Coalition -->
-    <Item file="%ModDir%/Content/Faction-Gear/Coalition/armor.xml" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Surface Tension" modversion="0.1" corepackage="False" steamworkshopid="3738724524" gameversion="1.12.7.0">
+  <Jobs file="%ModDir%/Content/Jobs/jobs.xml" />
+  <Jobs file="%ModDir%/Content/joboverride.xml" />
+  <Text file="%ModDir%/English.xml" />
+  <Item file="%ModDir%/Sprites/backgrounds.xml" />
+  <Item file="%ModDir%/Content/Weapons/Weapons.xml" />
+  <Item file="%ModDir%/Content/Faction-Gear/Coalition/armor.xml" />
+  <Structure file="%ModDir%/Decals.xml" />
 </contentpackage>

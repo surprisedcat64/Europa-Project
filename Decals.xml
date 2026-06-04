@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Prefabs>
+  <fin name="Jupiter_Decal" identifier="decal1" scale="0.25" body="false">
+    <sprite texture="%ModDir%/Decals/jupiter1.png" sourcerect="0,0,1280,640" depth="0.99" origin="0.5,0.5" />
+  </fin>
+  <fin name="Jupiter_Decal2" identifier="decal2" scale="0.25" body="false">
+    <sprite texture="%ModDir%/Decals/jupiter2.png" sourcerect="0,0,1021,1278" depth="0.99" origin="0.5,0.5" />
+  </fin>
+  <fin name="Mimic_Decal1" identifier="decal3m" scale="0.25" body="false">
+    <sprite texture="%ModDir%/Decals/beams.png" sourcerect="0,0,513,462" depth="0.99" origin="0.5,0.5" />
+  </fin>
+</Prefabs>
