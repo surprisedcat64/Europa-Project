@@ -2,12 +2,12 @@
 <!-- sets the names of items and roles -->
 <infotexts language="English" nowhitespace="false" translatedname="English">
   <override>
-    <jobname.thinker>The Thinker</jobname.thinker>
+    <jobname.thinker>Job-Example</jobname.thinker>
     <jobdescription.thinker>bro think he the thinker.</jobdescription.thinker>
-    <jobname.c-security>Coalition Security</jobname.c-security>
+    <jobname.c-security>Security</jobname.c-security>
     <jobdescription.c-security>its fucking security dumbass.</jobdescription.c-security>
-    <jobname.c-captain>Coalition Captain</jobname.c-captain>
-    <jobdescription.c-captain>Lead the station to victory!</jobdescription.c-captain>
+    <jobname.c-captain>Outpost Administrator</jobname.c-captain>
+    <jobdescription.c-captain>Lead the Outpost to victory!</jobdescription.c-captain>
     <jobname.w-worker>Unionized Worker</jobname.w-worker>
     <jobdescription.w-worker>FOR LABOR AND FREEDOM!</jobdescription.w-worker>
     <jobname.w-militant>Unionized Militant</jobname.w-militant>

@@ -1,4 +1,4 @@
-<contentpackage name="Europa Project" corepackage="false" modversion="0.1" gameversion="1.11.5.0">
+<contentpackage name="Surface Tension" corepackage="false" modversion="0.1" gameversion="1.11.5.0">
     <!-- enables our jobs -->
     <Jobs file="%ModDir%/Content/Jobs/jobs.xml" />
     <!-- disables vanilla jobs -->
