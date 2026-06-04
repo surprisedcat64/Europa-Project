@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="scp_assaultpack" scale="0.6" category="Equipment" subcategory="Coalition" tags="mediumitem,toolbelt,toolbox,mobilecontainer,largemobilecontainer" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" />
+    <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.08" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
+    <Price baseprice="300" displaynonempty="true" minleveldifficulty="10">
+      <Price storeidentifier="merchantoutpost" minavailable="0" maxavailable="2" multiplier="1.5" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="0" maxavailable="1" />
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.95" minavailable="0" maxavailable="2" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.95" minavailable="0" maxavailable="2" />
+    </Price>
+    <InventoryIcon name="assaultpackinv" texture="%ModDir%/Content/Faction Gear/Coalition/assaultpack.png" sourcerect="122,5,61,61" origin="0.5,0.5" />
+    <Sprite name="assaultpackground" texture="%ModDir%/Content/Faction Gear/Coalition/assaultpack.png" depth="0.6" sourcerect="117,68,80,49" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" />
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="25" />
+      <RequiredItem identifier="toolbelt" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="organicfiber" amount="4" />
+    </Fabricate>
+    <ItemContainer capacity="8" depth="0.5">
+      <Containable items="smallitem,ammo,explosive" excludeditems="toolbelt,toolbox,mobilecontainer,rucksack,backpack,waistbelt,vest,backpack1,medicalbackpack,power-backpack,duffelbag,heavybackpack,oxy-gen. backpack,xeno-backpack,techno-backpack,bulkyweapon" />
+    </ItemContainer>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
+    <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
+      <sprite name="Assault Backpack Wearable" texture="%ModDir%/Content/Faction Gear/Coalition/assaultpack.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" canbehiddenbyotherwearables="false" sourcerect="5,7,94,89" origin="0.7110833,0.6007368" scale="0.6" />
+      <StatValue stattype="SwimmingSpeed" value="-0.05" />
+    </Wearable>
+  </Item>
+</Items>
+</Items>
