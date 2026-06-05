@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Surface Tension" modversion="0.1" corepackage="False" steamworkshopid="3738724524" gameversion="1.12.7.0">
+<contentpackage name="Surface Tension" modversion="0.2" corepackage="False" steamworkshopid="3738724524" gameversion="1.12.7.0">
   <Jobs file="%ModDir%/Content/Jobs/jobs.xml" />
   <Jobs file="%ModDir%/Content/joboverride.xml" />
   <Text file="%ModDir%/English.xml" />
