@@ -95,7 +95,7 @@
       <Item identifier="idcard" equip="true" showpreview="false"/>
       <Item identifier="workersunionuniform" equip="true" />
       <Item identifier="weldingtool" >
-        <Item identifier="weldingtoolfuel" />
+        <Item identifier="weldingfueltank" />
       </Item>
       <Item identifier="plasmacutter" >
         <Item identifier="oxygentank" />
