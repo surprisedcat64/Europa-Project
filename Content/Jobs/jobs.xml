@@ -42,6 +42,7 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
+      <Item identifier="coalition_lightuniform" equip="true" />
       <Item identifier="coalitionassaultrifle" equip="false">
         <Item identifier="556natomag"/>
       </Item>
@@ -65,6 +66,7 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
+      <Item identifier="administratorclothes" equip="true" />
       <Item identifier="coalition.40sw-pistol">
         <Item identifier=".40sw-mag" />
       </Item>
@@ -111,8 +113,20 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
-      <Item identifier="wrench" />
-      <Item identifier="screwdriver" />
+      <Item identifier="woodenrifle" >
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+      </Item>
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
       <Item identifier="headset" equip="true" showpreview="false"/>
     </ItemSet>
     </Job>
@@ -133,7 +147,21 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
-      <!-- add weapons here once implemented  -->
+        <Item identifier="woodenrifle" >
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+        <Item identifier="rifleammo" />
+      </Item>
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="rifleammo" />
+      <Item identifier="renegadeuniform" equip="true" />
       <Item identifier="headset" equip="true" showpreview="false"/>
     </ItemSet>
     </Job>
