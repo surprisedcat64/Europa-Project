@@ -6,6 +6,6 @@
   <Item file="%ModDir%/Sprites/backgrounds.xml" />
   <Item file="%ModDir%/Content/Weapons/Weapons.xml" />
   <Item file="%ModDir%/Content/Faction-Gear/Coalition/armor.xml" />
-  <Item file="%ModDir%/Content/Faction-Gear/Renegade/armor.xml" />
+  <Item file="%ModDir%/Content/Faction-Gear/Renegades/armor.xml" />
   <Structure file="%ModDir%/Decals.xml" />
 </contentpackage>
