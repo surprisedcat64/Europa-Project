@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item name="" identifier="workersunionuniform" category="Equipment" subcategory="Renegade" description="" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" />
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="wreckarmcab,wrecksecarmcab" minamount="1" maxamount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
+    <Price baseprice="150" displaynonempty="true">
+      <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="1" maxavailable="2">
+        <Reputation faction="separatists" min="5" />
+      </Price>
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="1" maxavailable="3">
+        <Reputation faction="separatists" min="5" />
+      </Price>
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.95" minavailable="1" maxavailable="6">
+        <Reputation faction="separatists" min="5" />
+      </Price>
+      <Price storeidentifier="merchantmine" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.95" minavailable="1" maxavailable="6">
+        <Reputation faction="separatists" min="5" />
+      </Price>
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="25" />
+      <Item identifier="rubber" />
+      <Item identifier="organicfiber" amount="3" />
+    </Fabricate>
+    <InventoryIcon name="workerunionuniforminv" texture="%ModDir%/Content/Faction-Gear/Workers Union/workersunionuniform.png" sourcerect="689,130,90,90" origin="0.5,0.5" />
+    <Sprite name="renegadeuniformground" texture="%ModDir%/Content/Faction-Gear/Workers Union/workersunionuniform.png" sourcerect="690,58,115,58" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Renegade Uniform Torso" texture="workersunionuniform.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Right Hand" texture="workersunionuniform.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Left Hand" texture="workersunionuniform.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Right Lower Arm" texture="workersunionuniform.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Left Lower Arm" texture="workersunionuniform.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Right Upper Arm" texture="workersunionuniform.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Left Upper Arm" texture="workersunionuniform.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Waist" texture="workersunionuniform.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Right Thigh" texture="workersunionuniform.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Left Thigh" texture="workersunionuniform.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Right Leg" texture="workersunionuniform.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Left Leg" texture="workersunionuniform.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Left Shoe" texture="workersunionuniform.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <sprite name="Renegade Uniform Right Shoe" texture="workersunionuniform.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,805,256" origin="0.5,0.5" />
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound,bleeding" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <StatValue stattype="WalkingSpeed" value="0.1" />
+      <StatValue stattype="SwimmingSpeed" value="0.1" />
+    </Wearable>
+    <ItemContainer capacity="2">
+      <StatusEffect type="OnContained" target="Character, This" setvalue="true" disabledeltatime="true" drawinventory="false" locked="true" />
+      <StatusEffect type="OnWearing" target="Character, This" setvalue="true" disabledeltatime="true" drawinventory="true" locked="false" />
+      <StatusEffect type="OnContained" target="This">
+        <Conditional isActive="false" targetitemcomponent="Wearable" />
+        <DropContainedItems />
+      </StatusEffect>
+      <Containable items="smallitem" excludeditems="clothing,toolbox,mobilecontainer,rucksack,backpack,waistbelt,vest,backpack1,medicalbackpack,power-backpack,duffelbag,heavybackpack,oxy-gen. backpack,xeno-backpack,techno-backpack" />
+    </ItemContainer>
+  </Item>
+</Items>
