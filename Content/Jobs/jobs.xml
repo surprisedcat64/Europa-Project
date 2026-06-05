@@ -111,7 +111,8 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
-      <!-- add weapons here once implemented  -->
+      <Item identifier="wrench" />
+      <Item identifier="screwdriver" />
       <Item identifier="headset" equip="true" showpreview="false"/>
     </ItemSet>
     </Job>
