@@ -42,6 +42,7 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
+      <Item identifier="scp_assaultpack" equip="true" />
       <Item identifier="coalition_lightuniform" equip="true" />
       <Item identifier="coalitionassaultrifle" equip="false">
         <Item identifier="556natomag"/>
@@ -92,7 +93,16 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
-      <!-- add gear here once implemented  -->
+      <Item identifier="workersunionuniform" equip="true" />
+      <Item identifier="weldingtool" >
+        <Item identifier="weldingtoolfuel" />
+      </Item>
+      <Item identifier="plasmacutter" >
+        <Item identifier="oxygentank" />
+      </Item>
+      <Item identifier="toolbelt" equip="true" />
+      <Item identifier="screwdriver" />
+      <Item identifier="wrench" />
       <Item identifier="headset" equip="true" showpreview="false"/>
     </ItemSet>
     </Job>
@@ -113,6 +123,7 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false"/>
+      <Item identifier="workersunionuniform" equip="true" />
       <Item identifier="woodenrifle" >
         <Item identifier="rifleammo" />
         <Item identifier="rifleammo" />
