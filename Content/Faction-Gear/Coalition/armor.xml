@@ -35,4 +35,64 @@
       <StatValue stattype="SwimmingSpeed" value="-0.05" />
     </Wearable>
   </Item>
+    <Item name="" identifier="coalition_lightuniform" description="" category="Equipment" subcategory="Coalition" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" />
+    <PreferredContainer primary="crewcab,outpostcrewcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <Price baseprice="200" displaynonempty="true">
+      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" sold="false" minavailable="0" maxavailable="2">
+        <Reputation faction="coalition" min="5" />
+      </Price>
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.95" minavailable="1" maxavailable="6">
+        <Reputation faction="coalition" min="5" />
+      </Price>
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.95" minavailable="1" maxavailable="4">
+        <Reputation faction="coalition" min="5" />
+      </Price>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="25" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <ItemContainer capacity="3" depth="0.5">
+      <StatusEffect type="OnContained" target="Character, This" setvalue="true" disabledeltatime="true" drawinventory="false" locked="true" />
+      <StatusEffect type="OnWearing" target="Character, This" setvalue="true" disabledeltatime="true" drawinventory="true" locked="false" />
+      <StatusEffect type="OnContained" target="This">
+        <Conditional isActive="false" targetitemcomponent="Wearable" />
+        <DropContainedItems />
+      </StatusEffect>
+      <Containable items="smallitem,ammo" excludeditems="clothing,toolbox,mobilecontainer,rucksack,backpack,waistbelt,vest,backpack1,medicalbackpack,power-backpack,duffelbag,heavybackpack,oxy-gen. backpack,xeno-backpack,techno-backpack" />
+    </ItemContainer>
+    <InventoryIcon name="lightuniforminv" texture="%ModDir%/Content/Faction-Gear/Coalition/lightuniform.png" sourcerect="574,128,90,90" origin="0.5,0.5" />
+    <Sprite name="lightuniformground" texture="%ModDir%/Content/Faction-Gear/Coalition/lightuniform.png" sourcerect="564,53,117,62" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Heavy Uniform Torso" texture="lightuniform.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Right Hand" texture="lightuniform.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Left Hand" texture="lightuniform.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Right Lower Arm" texture="lightuniform.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Left Lower Arm" texture="lightuniform.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Right Upper Arm" texture="lightuniform.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Left Upper Arm" texture="lightuniform.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Waist" texture="lightuniform.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Right Thigh" texture="lightuniform.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Left Thigh" texture="lightuniform.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Right Leg" texture="lightuniform.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Left Leg" texture="lightuniform.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Left Shoe" texture="lightuniform.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="Heavy Uniform Right Shoe" texture="lightuniform.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.9" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bleeding" armorsector="0.0,360.0" damagemultiplier="0.85" damagesound="LimbArmor" deflectprojectiles="true" />
+      <SkillModifier skillidentifier="weapons" skillvalue="5" />
+      <StatValue stattype="WalkingSpeed" value="0.1" />
+      <StatValue stattype="SwimmingSpeed" value="0.1" />
+    </Wearable>
+  </Item>
 </Items>
